@@ -18,16 +18,27 @@ namespace SEDC.CsBasicHomework.Class02.SwapNumbers
 
             Console.WriteLine("Please enter the first number");
             string firstUserInput = Console.ReadLine();
-            Console.WriteLine("Please enter the seocnd number");
+            Console.WriteLine("Please enter the second number");
             string secondUserInput = Console.ReadLine();
 
-            bool isValidFirstNumber = double.TryParse(firstUserInput, out double firstNumber);
-            bool isValidSecondNumber = double.TryParse(secondUserInput, out double secondNumber);
+            double firstNumber;
+            double secondNumber;
+
+            // if true assign a value to the firstNumber and secondNumber 
+            bool isValidFirstNumber = double.TryParse(firstUserInput, out firstNumber);
+            bool isValidSecondNumber = double.TryParse(secondUserInput, out secondNumber);
 
             if (isValidFirstNumber && isValidSecondNumber)
             {
-                Console.WriteLine("First Number: " + secondNumber);
-                Console.WriteLine("Second Number: " + firstNumber);
+                // assign new value to another variable to "hold" the value so we can change it later
+                double num1 = firstNumber;
+                double num2 = secondNumber;
+
+                // switch the values
+                firstNumber = num2;
+                secondNumber = num1;
+                Console.WriteLine("1st = " + firstNumber);
+                Console.WriteLine("2nd = " + secondNumber);
             }
             else
             {
