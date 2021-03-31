@@ -11,20 +11,13 @@ namespace SEDC.BasicOop.Class03.ExtraHomework.Task1
             Console.WriteLine("Please enter a number bigger than 2");
             bool isValidInput = int.TryParse(Console.ReadLine(), out int input);
 
-            if (isValidInput)
+            if (isValidInput && input > 2)
             {
-                if (input > 2)
+                for (int i = 0; i < input; i++)
                 {
-                    for (int i = 0; i < input; i++)
+                    if (i % 3 == 0)
                     {
-                        if (i % 3 != 0)
-                        {
-                            continue;
-                        }
-                        else
-                        {
-                            Console.WriteLine(i + " divides with 3");
-                        }
+                        Console.WriteLine(i + " divides with 3");
                     }
                 }
             }

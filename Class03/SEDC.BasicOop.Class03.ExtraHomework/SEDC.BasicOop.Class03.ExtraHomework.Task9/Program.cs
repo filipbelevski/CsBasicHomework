@@ -23,12 +23,6 @@ namespace SEDC.BasicOop.Class03.ExtraHomework.Task9
                     Console.WriteLine(i + " The result of digits is " + result);
 
                 }
-                else
-                {
-                    continue;
-                }
-
-
             }
         }
     }

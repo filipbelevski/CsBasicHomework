@@ -12,13 +12,9 @@ namespace SEDC.BasicOop.Class03.ExtraHomework.Task5
             int input = Convert.ToInt32(Console.ReadLine());
 
             int result = 0;
-            for (int i = 0; i <= input; i ++)
+            for (int i = 1; i <= input; i ++)
             {
-                if(i % 2 == 0)
-                {
-                    continue;
-                }
-                else
+                if(i % 2 != 0)
                 {
                     result += i;
                 }

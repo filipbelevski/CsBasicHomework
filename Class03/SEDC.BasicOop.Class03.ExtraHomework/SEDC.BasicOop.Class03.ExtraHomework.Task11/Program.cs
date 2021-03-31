@@ -16,10 +16,6 @@ namespace SEDC.BasicOop.Class03.ExtraHomework.Task11
                 {
                     Console.WriteLine(i);
                 }
-                else
-                {
-                    continue;
-                }
                             
             }
         }

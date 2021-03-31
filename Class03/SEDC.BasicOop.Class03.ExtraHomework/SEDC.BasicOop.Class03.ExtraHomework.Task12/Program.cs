@@ -13,26 +13,15 @@ namespace SEDC.BasicOop.Class03.ExtraHomework.Task12
 
             for (int i = 1; i < 100; i++)
             {
-                if (i % 3 == 0)
+                if (i % 3 == 0 || i % 5 == 0)
                 {
                     if (i % 3 == 0 && i % 5 == 0)
                     {
                         Console.WriteLine("FizzBuzz");
                     }
-                    else
+                    else 
                     {
                         Console.WriteLine("Fizz");
-                    }
-                }
-                else if (i % 5 == 0)
-                {
-                    if (i % 3 == 0 && i % 5 == 0)
-                    {
-                        Console.WriteLine("FizzBuzz");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Buzz");
                     }
                 }
                 else {

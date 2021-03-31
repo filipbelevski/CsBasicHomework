@@ -25,7 +25,7 @@ namespace SEDC.BasicOop.Class03.ExtraHomework.Task10
                 }
                 if (i % result == 0)
                 {
-                    Console.WriteLine(i + ": The product of my digits is :" + result);
+                    Console.WriteLine(i + ": The product of my digits is: " + result);
                 }
             }
         }

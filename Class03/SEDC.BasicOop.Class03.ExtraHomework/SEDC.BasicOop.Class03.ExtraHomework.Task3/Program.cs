@@ -14,7 +14,6 @@ namespace SEDC.BasicOop.Class03.ExtraHomework.Task3
 
             if(isValidInput)
             {
-
                 int result = 1;
                 while(input != 0)
                 {
