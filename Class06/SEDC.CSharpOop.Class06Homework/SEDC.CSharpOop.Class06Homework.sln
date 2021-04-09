@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CSharpOop.Class06Homework.RaceCars", "SEDC.CSharpOop.Class06Homework.RaceCars\SEDC.CSharpOop.Class06Homework.RaceCars.csproj", "{BBE00E11-2FF0-4351-8F39-F4518A2F00D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.CSharpOop.Class06HomeworkF", "SEDC.CSharpOop.Class06HomeworkF\SEDC.CSharpOop.Class06HomeworkF.csproj", "{A74D8D23-FE79-4EEB-B68E-C5B4FEA35493}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BBE00E11-2FF0-4351-8F39-F4518A2F00D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BBE00E11-2FF0-4351-8F39-F4518A2F00D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BBE00E11-2FF0-4351-8F39-F4518A2F00D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BBE00E11-2FF0-4351-8F39-F4518A2F00D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74D8D23-FE79-4EEB-B68E-C5B4FEA35493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74D8D23-FE79-4EEB-B68E-C5B4FEA35493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74D8D23-FE79-4EEB-B68E-C5B4FEA35493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74D8D23-FE79-4EEB-B68E-C5B4FEA35493}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
