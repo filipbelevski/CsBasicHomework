@@ -4,11 +4,10 @@ using System.Text;
 
 namespace SEDC.BasicOop.Class07.Exercises.Domain.Classes
 {
-    public enum Role
+    public enum Department
     {
         Sales,
-        Manager,
-        Other,
-        CEO
+        Merch,
+        Recruitment
     }
 }
